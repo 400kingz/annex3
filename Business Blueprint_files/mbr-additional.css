@@ -20,10 +20,10 @@ body {
   background-color: #e6f0f4;
 }
 body {
-  font-family: Onest;
+  font-family: 'Montserrat', sans-serif;
 }
 .display-1 {
-  font-family: 'Onest', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 5rem;
   line-height: 1;
 }
@@ -31,7 +31,7 @@ body {
   font-size: 6.25rem;
 }
 .display-2 {
-  font-family: 'Onest', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 4rem;
   line-height: 1;
 }
@@ -39,7 +39,7 @@ body {
   font-size: 5rem;
 }
 .display-4 {
-  font-family: 'Onest', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
   line-height: 1.5;
 }
@@ -47,7 +47,7 @@ body {
   font-size: 1.5rem;
 }
 .display-5 {
-  font-family: 'Onest', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   line-height: 1.5;
 }
@@ -55,7 +55,7 @@ body {
   font-size: 3.125rem;
 }
 .display-7 {
-  font-family: 'Onest', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.4rem;
   line-height: 1.3;
 }
@@ -648,7 +648,7 @@ a:hover {
   display: none;
 }
 .form-control {
-  font-family: 'Onest', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.4rem;
   line-height: 1.3;
   font-weight: 400;
@@ -663,7 +663,7 @@ a:hover {
   border-color: #4e64ff !important;
 }
 .form-control:-webkit-input-placeholder {
-  font-family: 'Onest', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.4rem;
   line-height: 1.3;
   font-weight: 400;
@@ -900,7 +900,6 @@ a {
 }
 .cid-uluBcReDlj .container {
   display: flex;
-  height: 90px;
   padding: 0.5rem 0.6rem;
   flex-wrap: nowrap;
   background: rgba(255, 255, 255, 0.8) !important;

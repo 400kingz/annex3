@@ -27,8 +27,6 @@
       text-decoration: none; }
   .navbar-dropdown .mbr-iconfont + .navbar-caption {
     vertical-align: -1px; }
-  .navbar-dropdown.navbar-fixed-top {
-    position: fixed; }
   .navbar-dropdown .navbar-brand span {
     vertical-align: -4px; }
   .navbar-dropdown.bg-color.transparent {
