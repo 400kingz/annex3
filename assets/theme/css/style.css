@@ -749,6 +749,16 @@ html,
 body {
   height: auto;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > * {
+  flex: 1;
+}
+
+footer {
+  flex-shrink: 0;
 }
 
 .dropup .dropdown-toggle::after {
