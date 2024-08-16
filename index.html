@@ -32,6 +32,18 @@
 
 
   <style>
+    .rounded-square-form {
+      position: absolute;
+      top: 50%;
+      right: 5%;
+      transform: translateY(-50%);
+      background: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      z-index: 1000;
+    }
     .navbar-fixed-top {
       top: auto;
     }
@@ -559,6 +571,27 @@
               data-target="#joinUsModal">Join Us</a></div>
         </div>
       </div>
+    </div>
+    <div class="rounded-square-form">
+      <form action="mailto:flurpro@gmail.com" method="POST" class="mbr-form form-with-styler" data-form-title="Join Us Form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="businessName">Business Name</label>
+          <input type="text" class="form-control" id="businessName" name="businessName" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </div>
   </section>
 
@@ -1387,40 +1420,6 @@
   </section>
 
 
-<!-- Modal -->
-<div class="modal fade" id="joinUsModal" tabindex="-1" role="dialog" aria-labelledby="joinUsModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="joinUsModalLabel">Join Us</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form action="mailto:flurpro@gmail.com" method="POST" class="mbr-form form-with-styler" data-form-title="Join Us Form">
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" class="form-control" id="name" name="name" required>
-          </div>
-          <div class="form-group">
-            <label for="businessName">Business Name</label>
-            <input type="text" class="form-control" id="businessName" name="businessName" required>
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" class="form-control" id="email" name="email" required>
-          </div>
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
 
 <script src="./Business Blueprint_files/jquery.min.js.download"></script>
 <script src="./Business Blueprint_files/bootstrap.bundle.min.js.download"></script>
